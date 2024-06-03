@@ -5,6 +5,7 @@ const productSchema = mongoose.Schema(
   {
     productname: {
       type: String,
+      
       required: [true, "product name is required"],
     },
     producticon: {
